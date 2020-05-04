@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="CustomStyle.css" />
+</head>
+<body>
+    <div>
+        <img src="Saylani-logo.png" alt="Logo" class="logo"  />
+        <h1>STUDENT REGISTRATION FORM</h1>
+    </div>
+    <form action="Successfull.html" class="FormBox">
+        
+        <table style="width:100%;" id="tblForm">
+            <tr>
+                <td>
+                    <label for="txtFirstName" class="labelHeading">First Name</label>
+                </td>
+                <td>
+                    <input type="text" id="txtFirstName" name="FirstName" class="form-control" placeholder="Enter First Name" />
+                    <span>(max 30 characters a-z and A-Z)</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtLastName" class="labelHeading">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" id="txtLastName" name="LastName" class="form-control" placeholder="Enter Last Name" />
+                    <span>(max 30 characters a-z and A-Z)</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="DateOfBirth" class="labelHeading">Date Of Birth</label>
+                </td>
+                <td>
+                    <select class="form-control-select" id="cmbDay" name="Day">
+                        <option selected="selected">Day</option>
+                        <option>Monday</option>
+                        <option>Tuesday</option>
+                        <option>Wednesday</option>
+                        <option>Thursday</option>
+                        <option>Friday</option>
+                        <option>Saturday</option>
+                        <option>Sunday</option>
+                    </select>
+                    <select class="form-control-select" id="cmbMonth" name="Month">
+                        <option selected>Month</option>
+                        <option>Janaury</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                    <select class="form-control-select" id="cmbYear" name="Year">
+                        <option selected>Year</option>
+                        <option>1995</option>
+                        <option>1996</option>
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtEmail" class="labelHeading">Email ID</label>
+                </td>
+                <td>
+                    <input type="email" id="txtEmail" name="Email" class="form-control" placeholder="Enter Email Address" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtMobileNum" class="labelHeading">Mobule Number</label>
+                </td>
+                <td>
+                    <input type="text" id="txtMobileNum" name="MobileNum" class="form-control" placeholder="Enter Mobile Number" />
+                    <span>(10 Digit Number)</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtMobileNum" class="labelHeading">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" name="Gender" checked />Male
+                    <input type="radio" name="Gender" />Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtAddress" class="labelHeading">Address</label>
+                </td>
+                <td>
+                    <textarea id="txtAddress" class="form-control" rows="4" cols="34" style="margin-top:2%;"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtCity" class="labelHeading">City</label>
+                </td>
+                <td>
+                    <input type="text" id="txtCity" name="City" class="form-control" placeholder="Enter City Name" />
+                    <span>(max 30 characters a-z and A-Z)</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtPinCode" class="labelHeading">Pin Code</label>
+                </td>
+                <td>
+                    <input type="text" id="txtPinCode" name="PinCode" class="form-control" placeholder="Enter Pin Code" />
+                    <span>(6 Digit Number)</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtState" class="labelHeading">State</label>
+                </td>
+                <td>
+                    <input type="text" id="txtState" name="State" class="form-control" placeholder="Enter State" />
+                    <span>(max 30 characters a-z and A-Z)</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtCountry" class="labelHeading">Country</label>
+                </td>
+                <td>
+                    <input type="text" id="txtCountry" name="Country" class="form-control" placeholder="Enter Country" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtCountry" class="labelHeading">Hobbies</label>
+                </td>
+                <td>
+                    Drawing<input type="checkbox" name="Hobbies" />
+                    Singing<input type="checkbox" name="Hobbies" />
+                    Dancing<input type="checkbox" name="Hobbies" />
+                    Sketching<input type="checkbox" name="Hobbies" />
+                    <br />
+                    Others<input type="checkbox" name="Hobbies" />
+                    <input type="text" id="txtHobby" name="Hobby" class="form-control" placeholder="Enter Hobby" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtCountry" class="labelHeading">Qualification</label>
+                </td>
+                <td>
+                    <table id="QualificationsTable">
+                        <thead>
+                            <tr>
+                                <th>S. NO.</th>
+                                <th>Examination</th>
+                                <th>Board</th>
+                                <th>Percentage</th>
+                                <th>Year Of Passing</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Class X</td>
+                                <td><input type="text" class="form-control" /></td>
+                                <td><input type="text" class="form-control" /></td>
+                                <td><input type="text" class="form-control" /></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Class XII</td>
+                                <td><input type="text" class="form-control" /></td>
+                                <td><input type="text" class="form-control" /></td>
+                                <td><input type="text" class="form-control" /></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Graduation</td>
+                                <td><input type="text" class="form-control" /></td>
+                                <td><input type="text" class="form-control" /></td>
+                                <td><input type="text" class="form-control" /></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Masters</td>
+                                <td><input type="text" class="form-control" /></td>
+                                <td><input type="text" class="form-control" /></td>
+                                <td><input type="text" class="form-control" /></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>(10 characters Max)</td>
+                                <td>(upto 2 decimal)</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtCountry" class="labelHeading">Courses Applied For</label>
+                </td>
+                <td>
+                    BCA <input type="radio" name="Gender" checked />
+                    B.Com <input type="radio" name="Gender" />
+                    B.Sc <input type="radio" name="Gender" checked />
+                    B.A <input type="radio" name="Gender" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br />
+                    <br />
+                </td>
+                <td>
+                    <br />
+                    <br />
+                </td>
+            </tr>
+        </table>
+        <div class="btnDiv">
+            <input type="submit" value="Submit" class="btn btn-default" />
+            <input type="reset" value="Reset" class="btn btn-default" />
+        </div>
+    </form>
+
+
+</body>
+</html>

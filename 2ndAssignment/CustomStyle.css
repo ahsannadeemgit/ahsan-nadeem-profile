@@ -1,0 +1,159 @@
+﻿/*Main Page CSS*/
+
+body{
+    font-family:Arial;
+}
+form {
+    color: white;
+    background-color: #6b5acd;
+    padding-left: 2%;
+}
+
+#tblForm {
+    padding-top: 2%;
+}
+
+.btnDiv {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+div > h1 {
+    text-align: center;
+    font-size: 42px;
+    text-decoration: underline;
+    color: #6b5acd;
+}
+textarea{
+    margin-top:3%;
+}
+#QualificationsTable > tr > td {
+    width: 5%;
+}
+
+#QualificationsTable {
+    width: 100%;
+}
+
+    #QualificationsTable > thead > tr > th {
+        text-align: left;
+    }
+
+    #QualificationsTable > tbody > tr > td > input {
+        width: 90%;
+    }
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+span{
+    font-size:18px;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+td:first-child {
+    width: 15%;
+}
+
+.labelHeading {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.form-control {
+    margin-bottom: 2%;
+    display: inline;
+    width: 20%;
+    height: 24px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+
+.form-control-select {
+    margin-bottom: 2%;
+    display: inline;
+    width: 20%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+
+/*Success Page CSS*/
+.Check{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.Content > h1{
+    text-align:center;
+    color:#41ad49;
+}
+.Content > h2{
+    text-align:center;
+    color:#6b5acd;
+}
+.Content > a{
+    display:block;
+    text-align:center;
+    text-decoration:underline;
+    font-weight:bold;
+    font-size:30px;
+    color:#6b5acd;
+}
